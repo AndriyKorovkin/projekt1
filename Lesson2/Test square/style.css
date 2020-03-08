@@ -1,11 +1,12 @@
 table {
-    /*width: 100%;*/ 
+    width: 450px;
+    height: 450px;
     border:6px solid black;
     border-collapse: collapse
 }
 
 td {
-    border: 1px solid lightgray;
+    border: 3px solid black;
     width: 60px;
     height: 60px;
 }
@@ -16,12 +17,44 @@ td {
     color: black;
 }
 
+.textwhite
+{
+    font-size: 35px;
+    color: white;
+}
+
 .yellow
 {
-    color: yellow;
+    color: rgb(247, 203, 59);
     background: currentColor;
-    border-color: currentColor;
+    border-color: black;
     text-align: center;
     text-size-adjust: 40px;
 }
 
+.coral
+{
+    color: rgb(209, 40, 10);
+    background: currentColor;
+    border-color: black;
+    text-align: center;
+    text-size-adjust: 40px;
+}
+
+.chocolate
+{
+    color: rgb(168, 79, 63);
+    background: currentColor;
+    border-color: black;
+    text-align: center;
+    text-size-adjust: 40px;
+}
+
+.black
+{
+    color: rgb(63, 56, 56);
+    background: currentColor;
+    border-color: black;
+    text-align: center;
+    text-size-adjust: 40px;
+}
