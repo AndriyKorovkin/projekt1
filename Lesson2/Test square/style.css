@@ -1,0 +1,27 @@
+table {
+    /*width: 100%;*/ 
+    border:6px solid black;
+    border-collapse: collapse
+}
+
+td {
+    border: 1px solid lightgray;
+    width: 60px;
+    height: 60px;
+}
+
+.textblack
+{
+    font-size: 35px;
+    color: black;
+}
+
+.yellow
+{
+    color: yellow;
+    background: currentColor;
+    border-color: currentColor;
+    text-align: center;
+    text-size-adjust: 40px;
+}
+

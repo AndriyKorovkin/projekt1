@@ -1,0 +1,77 @@
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
+
+table {
+    /*width: 100%;*/ 
+    border:6px solid black;
+    border-collapse: collapse;
+    
+}
+
+td {
+    border: 1px solid lightgray;
+    width: 60px;
+    height: 60px;
+}
+
+.green 
+{
+    color: green;
+    background: currentColor;
+    border-color: currentColor;
+
+}
+
+tr:nth-child(n + 5):nth-child(-n + 8) td:first-child
+{
+    color: darkblue;
+    background: currentColor;
+    border-color: currentColor;
+}
+
+tr:nth-child(9) td:nth-child(-n+3)
+{
+    color: brown;
+    background: currentColor;
+    border-color: currentColor;  
+}
+
+.brown 
+{
+    color: brown;
+    background: currentColor;
+    border-color: currentColor;
+
+}
+
+[colspan="2"][rowspan="2"] 
+{
+    color: lightblue;
+    background: currentColor;
+    border-color: currentColor;
+
+}
+
+.orange
+{
+    color: orange;
+    background: currentColor;
+    border-color: currentColor;
+
+}
+
+.orangered
+{
+    color: orangered;
+    background: currentColor;
+    border-color: currentColor;
+
+}
