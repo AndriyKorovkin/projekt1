@@ -29,7 +29,7 @@ td {
     background: currentColor;
     border-color: black;
     text-align: center;
-    text-size-adjust: 40px;
+    font-size: 40px;
 }
 
 .coral
@@ -38,7 +38,7 @@ td {
     background: currentColor;
     border-color: black;
     text-align: center;
-    text-size-adjust: 40px;
+    font-size: 40px;
 }
 
 .chocolate
@@ -47,7 +47,7 @@ td {
     background: currentColor;
     border-color: black;
     text-align: center;
-    text-size-adjust: 40px;
+    font-size: 40px;
 }
 
 .black
@@ -56,5 +56,5 @@ td {
     background: currentColor;
     border-color: black;
     text-align: center;
-    text-size-adjust: 40px;
+    font-size: 40px;
 }
