@@ -167,3 +167,133 @@ table
     font-size: 32px;
     line-height: 40px;
 }
+
+.card4
+{
+    position: absolute;
+    width: 940px;
+    height: 469px;
+    top: 1150px;
+    background: white;
+    box-shadow: 0px 1px 10px black;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.image3
+{
+    position: absolute;
+    width: auto;
+    height: auto;  
+}
+
+.text1
+{
+    position: absolute;
+    height: 14px;
+    left: 520px;
+    top: 64px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+.text2
+{
+    position: absolute;
+    height: 40px;
+    left: 520px;
+    top: 78px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.text3
+{
+    position: absolute;
+    height: 16px;
+    left: 520px;
+    top: 153px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+.name
+{
+    position: absolute;
+    width: 370px;
+    height: 40px;
+    left: 520px;
+    top: 178px;
+    font-size: 24px;
+    line-height: 16px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.text4
+{
+    position: absolute;
+    height: 16px;
+    left: 520px;
+    top: 232px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+.email
+{
+    position: absolute;
+    width: 370px;
+    height: 40px;
+    left: 520px;
+    top: 257px;
+    font-size: 24px;
+    line-height: 16px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.login
+{
+    position: absolute;
+    width: 95px;
+    height: 40px;
+    left: 520px;
+    top: 379px;
+    background: #0876E2;
+    border-radius: 33px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.register
+{
+    position: absolute;
+    height: 16px;
+    left: 722px;
+    top: 391px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #999999;
+}
