@@ -57,6 +57,8 @@ table
     border-radius: 8px;  
 }
 
+
+
 .travel
 {
     position: absolute;
@@ -68,4 +70,100 @@ table
     border-radius: 17px; 
     background: #EC6732;
     color: white;
+    font-size: 10px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.business
+{
+    position: absolute;
+    width: 80px;
+    height: 24px;
+    left: 128px;
+    top: 461px;
+    bottom: 57.19%;
+    border-radius: 17px; 
+    background: #EC6732;
+    color: white;
+    font-size: 10px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.second
+{
+    position: absolute;
+    width: 350px;
+    height: 515px;
+    left: 450px;
+    top: 10px;
+    background: white;
+    box-shadow: 0px 1px 10px black;
+    border-radius: 8px;
+}
+
+.image2
+{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 35px;
+    top: 35px;
+    border-radius: 8px;  
+}
+
+.lable2
+{
+    position: absolute;
+    height: 14px;
+    left: 35px;
+    top: 326px;
+    font-family: lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: lightgray;
+}
+
+.header2
+{
+    position: absolute;
+    width: 265px;
+    height: 80px;
+    left: 35px;
+    top: 348px;
+    font-family: lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.third
+{
+    position: absolute;
+    width: 600px;
+    height: 515px;
+    top: 585px;
+    background: white;
+    box-shadow: 0px 1px 10px black;
+    border-radius: 8px;
+}
+
+.header3
+{
+    position: absolute;
+    width: auto;
+    height: 80px;
+    left: 35px;
+    top: 348px;
+    font-family: lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
 }
