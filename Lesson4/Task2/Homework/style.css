@@ -1,3 +1,7 @@
+body {
+    background-color: lightgrey;
+}
+
 .card {
     width: 30%;
     min-width: 200px;
@@ -7,6 +11,8 @@
     font-size: 11px;
     line-height: 13px;
     color: #000000;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .div__img-conteiner {
@@ -44,4 +50,37 @@
 
 .card__review {
     float: right;
+}
+
+.card_price-conteiner {
+    clear: both;
+}
+
+.carg__price-price {
+    font-weight: normal;
+    float: left;
+    margin-bottom: 21px;
+}
+
+.card__price-emount {
+    float: right;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 20px;
+}
+
+.card__bye {
+    width: 170px;
+    height: 40px;
+    clear: both;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #00ACDC;
+    border-radius: 5px;
+}
+button:hover {
+    background: #FFF;
+    color: #00ACDC;
 }
