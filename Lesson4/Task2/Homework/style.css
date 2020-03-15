@@ -100,6 +100,7 @@ body {
 
 .card__bye {
     width: 170px;
+    box-sizing: border-box;
     height: 40px;
     clear: both;
     position: relative;
@@ -111,4 +112,5 @@ body {
 button:hover {
     background: #FFF;
     color: #00ACDC;
+    cursor: pointer;
 }
