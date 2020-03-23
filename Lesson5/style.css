@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto  10px;
+}
+
+
+.block > div {
+    background: #00BCD4;
+    border: 1px solid #FFF;
+    height: 150px;
+    color: #FFF;
+    display: block;
+    width: 100vw;
+}
+
+.inside {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+.text {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+}
+
+
+.first{
+    display: flex;
+    flex: 0 0 50%;
+    max-width: 50%;
+    flex-wrap: wrap;
+}
+
+
+.second {
+    display: flex;
+    flex-basis: 50%;
+    max-width: 50%;
+    flex-wrap: wrap;
+}
+
+.third,
+.fourth,
+.fifth {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .fourth {
+        display: flex;
+        flex-basis: 50%;
+        flex-wrap: wrap;
+    }
+
+    .fourth :last-child {
+        flex-basis: 100%;
+    }
+
+    .fifth {
+        display: flex;
+        flex-basis: 50%;
+        flex-wrap: wrap; 
+        }
+
+    .fifth :last-child {
+        flex-basis: 100%;
+    }
+
+}
+
+@media (min-width: 960px) {
+     .first {
+        flex-wrap: wrap;
+        max-width: 100%; 
+        }
+
+    .plain {
+        flex-basis: 50%;
+    }
+    
+    .second {
+        display: flex;
+        flex-basis: 50%;
+        flex-wrap: nowrap;
+        max-width: 100%;
+    }
+     
+    .third {
+        flex-wrap: nowrap;
+    }
+    .fourth :last-child,
+    .fourth :nth-child(1){
+        flex: 0 0 35%;
+
+    }
+
+    .fourth :nth-child(2) {
+        flex: 0 0 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .third {
+        display: flex;
+        flex-basis: 50%;
+        flex-wrap: wrap; 
+    }
+
+    .third :last-child {
+        flex-basis: 100%;
+    }
+
+    .fifth,
+    .fifth :last-child {
+        display: flex;
+        flex-basis: 33%;
+        flex-wrap: wrap; 
+        justify-content: center;
+        }
+}
+
+@media (min-width: 1800px) {
+    .first
+    .fourth {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .plain {
+        flex-basis: 25%;
+    }
+
+
+    .third .colored,
+    .fourth .colored {
+        display: flex;
+        flex: 0 0 25%;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .fourth :last-child {
+        display: flex;
+        flex: 0 0 50%;
+        text-align: center;
+
+    }
+
+    .fifth,
+    .fifth :last-child {
+        display: flex;
+        flex-basis: auto;
+        flex-wrap: nowrap; 
+    }
+
+    .fifth .colored {
+        display: block;
+    }
+}
