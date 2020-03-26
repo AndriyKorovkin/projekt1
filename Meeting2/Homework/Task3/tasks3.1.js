@@ -19,45 +19,4 @@ function task1(n){
     }
 
 }
-//task1(n);
-
-//2..................................................
-
-
-function isSimple (n) {
-    for (let k=2; k < n; k++) {
-        if (n % k === 0) {
-            return false;
-        }
-    }
-    return true;
-}
-
-//let m=1;
-//while (m<=n) {
-//    console.log (m,isSimple(m));
-//    m++
-//}
-
-//3.................................................
-
-
-let k = prompt('Введите, пожалуйста, число для просчета кратности', 2);
-function isMultiple (n) {
-//    let m = 1;
-//    while (m <= n){
-//        if(m%k===0) {
-//            console.log(m);
-//        }
-//       m++;
-//    }
-
-    for (let m=1; m<=n; m++) {
-        if(m%k===0) {
-            console.log(m);
-        }
-    }
-}
-//isMultiple(n,k);
-
-
+task1(n);
