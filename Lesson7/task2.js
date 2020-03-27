@@ -111,7 +111,7 @@ console.log('2. Max score:', maxScore(grade));
 
 
 function firstThree( grade ) {
-    let treeWiners=3;
+    let threeWiners=3;
     const result = [],
         maxSc = maxScore( grade ),
         gamerNames = Object.keys(grade);
@@ -123,7 +123,7 @@ function firstThree( grade ) {
         })
         .filter(
             function(name, idx, arr) {
-                return idx < treeWiners;
+                return idx < threeWiners;
             }
         )
 }
