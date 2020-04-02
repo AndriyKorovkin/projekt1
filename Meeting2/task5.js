@@ -3,21 +3,17 @@
 // Сколько человек зашло в кабинет, если известно, что всего произошло 120 рукопожатий.
 
 
-function handshake(x) {
-    let a='0';
-    let b='1';
-
-    while ((((a+b)*b)/2)<x) {
-        if ((((a+b)*b)/2)>=x) {
-        }
-
-        a++,b++;
-
-
-    }
-    console.log(b);
-
+function handshake() {
+  let b=1;
+  let a=0;
+while (a !== 120) {
+  b++;
+  a = a + (b - 1)
 }
-handshake(120);
+console.log(b);
+}
+handshake();
+
+
 
 //Ответ 12 человек.

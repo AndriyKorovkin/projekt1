@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.coutdown {
+    width: 100%;
+    max-width: 1800px;
+    background-color: lightgray;
+    padding: 1px;
+
+}
+
+.centre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
