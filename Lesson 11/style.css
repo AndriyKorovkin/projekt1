@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.board {
+    position: relative;
+    display: block;
+    width: 40vw;
+    height: 40vw;
+
+    margin: 20px auto;
+    border: 1px solid black;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, .5);
+}
+
+.cell {
+    position: absolute;
+
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: calc(25% - 4px);
+    height: calc(25% - 4px);
+
+    border: 1px solid black;
+
+}
+
+.cell--can-move {
+    cursor: pointer;
+    background: rgb(184, 184, 241);
+}
+
+.cell--can-move:hover {
+    background: rgb(137, 137, 236);
+}
