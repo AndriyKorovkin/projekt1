@@ -19,7 +19,6 @@ function join(arr, str) {
         newStr = newStr + arr[i];
         if (i < arr.length -1) {
           newStr = newStr + str;
-          newStr = newStr;
         }
         i++;
      }
