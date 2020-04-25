@@ -1,11 +1,33 @@
-function Game( board = Game.createRandomBoard() ) {
+function Game( props ) {
     // this = {}
     // this.__proto__ = Game.prototype;
+    const {
+        board = Game.createRandomBoard(),
+        container
+    } = props;
 
-    this.board = board;
+    this.container = container;
+    this.board = {};
 
+    this.container.classList.add('board');
+
+    this.cells = [];
+    for (let i=0; i<=15; i++) {
+        const number = this.board[i];
+        if (number != 'empty') {
+            this.cells.push(
+                new Cell({
+                    number,
+                    canMove: !!this.getMoveData(number)
+                })
+                );
+        }
+        
+    }
+    this.init();
     // return this;
 }
+
 
 Game.START_BOARD = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 'empty'];
 Game.createRandomBoard = function() {
@@ -34,6 +56,10 @@ Game.canBoardWin = function( board ) {
     }
 
     return N % 2 === 1;
+}
+Game.prototype.init = function init() {
+    this.container.innerText = '';
+    render( this.cell.map(cell => cell.element) , this.container);
 }
 
 Game.prototype.render = function render() {
